@@ -41,5 +41,5 @@ export const locationSchema = new mongoose.Schema<LocationData>({
     }
 },{ strict: false });
 
-export const Location = mongoose.model('location', locationSchema)
+export const LocationModel = mongoose.model<LocationData>('location', locationSchema)
 

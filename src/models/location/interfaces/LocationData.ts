@@ -7,5 +7,5 @@ export interface LocationData{
     startTime:Number,
     endTime:Number,
     scheduled:Boolean,
-    description:String
+    description:string
 }

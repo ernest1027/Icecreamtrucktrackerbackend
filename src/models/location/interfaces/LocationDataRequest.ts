@@ -7,7 +7,7 @@ export interface LocationDataRequest {
     startTime:Date,
     endTime:Date,
     scheduled:Boolean,
-    description:String
+    description:string
     driver_id: number,
 }
 
